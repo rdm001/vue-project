@@ -33,6 +33,10 @@ Vue.filter('dateFormate',function(dataStr,pattern='YYYY-MM-DD HH:mm:ss'){
   return moment(dataStr).format(pattern)
 })
 
+/* 导入vue-scroller组件 */
+import VueScroller from 'vue-scroller'
+/* 全局注册vue-Scroller组件 */
+Vue.use(VueScroller)
 /* 导入App根组件 */
 
 import App from './App.vue'

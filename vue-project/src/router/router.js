@@ -8,6 +8,7 @@ import newsInfoComponent from '../pages/newsInfo'
 import memberComponent from '../pages/member'
 import shopcarComponent from '../pages/shopcar'
 import searchComponent from '../pages/search'
+import goodsListComponent from '../pages/goodsList'
 
 export default new Router({
   routes: [
@@ -19,6 +20,7 @@ export default new Router({
     { path: '/search', component: searchComponent },
     { path: '/home/newsList', component: newsListComponent },
     { path: '/home/newsInfo:id', component: newsInfoComponent },
+    { path: '/home/goodsList', component: goodsListComponent }
     
   ],
   linkActiveClass:'mui-active'
