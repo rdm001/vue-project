@@ -1,4 +1,5 @@
 <template>
+<!-- 这是一个牛逼的项目 -->
   <div class="app-container">
     <!-- 顶部区域 -->
     <mt-header fixed title="黑马程序员·vue项目"></mt-header>
@@ -54,6 +55,7 @@
 	}
 	
 </style>
+ 
 
 
 
